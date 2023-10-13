@@ -9,7 +9,7 @@ function Content(){
     <p id="b" action="puthin.html"></p>
         <label className='A'>User Name</label>
         <input className='box' type="text" placeholder='Enter User Name:-' />
-        <label className='A'>Password</label>
+        <label className='A'>Password</label>                                                 
         <input className='box' type="text" placeholder='Enter Password:-'/>
       <p></p>
       <a href='sam-app/src/puthin.html'><button  type="submit" className='box'><i className="A">Login</i></button></a>

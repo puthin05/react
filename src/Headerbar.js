@@ -63,6 +63,7 @@ export default function Ani() {
   import Button from '@mui/material/Button';
   import IconButton from '@mui/material/IconButton';
   import MenuIcon from '@mui/icons-material/Menu';
+  import Trending from './Trending';
   /*import InfoIcon from '@mui/icons-material/Info';*/
   import Form from './Form';
   import "./adi.css";
@@ -84,26 +85,24 @@ import Home from './Home';
               </IconButton>
               <img width="100px" src="https://s2.bunnycdn.ru/assets/t4/s1/images/logo.png" alt="logo" />             
               <Button color="inherit">
-                <Link to="/Form" className='a'>Login</Link>
+                <Link to="/Form" className='ad'>Login</Link>
               </Button>
               <Button color="inherit">
-                <Link to="/Home" className='a'>Home</Link>
+                <Link to="/Home" className='ad'>Home</Link>
               </Button>
               <Button color="inherit">
-                <a href='https://zorox.to/trending' className='a'>Trending</a>
+                <Link to="/Trending" className='ad'>Trending</Link>
               </Button>
-              <Button color="inherit">
-                <a href='https://zorox.to/updated' className='a'>Recent Update</a>
-              </Button>
-              <Button color="inherit">
-                <a href='https://zorox.to/newest' className='a'>New Release</a>
-              </Button>
+              
+             
             </Toolbar>
           </AppBar>
           <Routes>
 
           <Route path="/Home" element={<Home />} />
             <Route path="/Form" element={<Form />} />
+            <Route path="/Trending" element={<Trending />} />
+          
           </Routes>
         </Box>
       </Router>
