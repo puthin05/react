@@ -98,11 +98,10 @@ import Home from './Home';
             </Toolbar>
           </AppBar>
           <Routes>
-
-          <Route path="/Home" element={<Home />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/Home" element={<Home />} />
             <Route path="/Form" element={<Form />} />
             <Route path="/Trending" element={<Trending />} />
-          
           </Routes>
         </Box>
       </Router>
