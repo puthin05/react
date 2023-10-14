@@ -32,7 +32,7 @@ const Trending = () => {
           <p>"Attack on Titan" is a popular anime and manga series set in a world where humanity must defend itself from giant humanoid creatures while uncovering dark secrets about their existence. It follows Eren Yeager and his friends as they join the fight against these Titans to reclaim their world.</p>
         </div>
         <div className="anime-card">
-          <img src="http://m.gettywallpapers.com/wp-content/uploads/2021/09/Tokyo-Revengers-Wallpaper-Pictures-4k.jpg" alt="Tokyo Revengers" />
+          <img src="https://images2.alphacoders.com/133/1335374.jpeg" alt="Tokyo Revengers" />
           <h2>Tokyo Revengers</h2>
           <p>"Tokyo Revengers" is an anime series that follows Takemichi Hanagaki, a man who discovers he can time-travel and uses this ability to change the past and prevent a tragic future involving gang conflicts and lost loved ones.</p>
         </div>
