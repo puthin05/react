@@ -85,9 +85,10 @@ import Home from './Home';
               </IconButton>
               <img width="100px" src="https://s2.bunnycdn.ru/assets/t4/s1/images/logo.png" alt="logo" />             
            <ul>
+                 <li><Link to="/Home" className='ad'>Home</Link></li>
              <li><Link to="/Form" className='ad'>Login</Link></li>
              
-              <li><Link to="/Home" className='ad'>Home</Link></li>
+       
             
              <li><Link to="/Trending" className='ad'>Trending</Link></li>
                 </ul>
