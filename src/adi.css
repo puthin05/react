@@ -1,4 +1,19 @@
-.ad{
+ul{
+    display: flex;
+    list-style: none;
     text-decoration: none;
-    padding: 0 0;
+   
+}
+ul li{
+    margin: 0 20px;
+    
+}
+
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgba(238, 243, 247, 0.171);
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-weight: 600;
 }
