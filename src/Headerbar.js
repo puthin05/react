@@ -84,16 +84,13 @@ import Home from './Home';
                 <MenuIcon />
               </IconButton>
               <img width="100px" src="https://s2.bunnycdn.ru/assets/t4/s1/images/logo.png" alt="logo" />             
-              <Button color="inherit">
-                <Link to="/Form" className='ad'>Login</Link>
-              </Button>
-              <Button color="inherit">
-                <Link to="/Home" className='ad'>Home</Link>
-              </Button>
-              <Button color="inherit">
-                <Link to="/Trending" className='ad'>Trending</Link>
-              </Button>
-              
+           <ul>
+             <li><Link to="/Form" className='ad'>Login</Link></li>
+             
+              <li><Link to="/Home" className='ad'>Home</Link></li>
+            
+             <li><Link to="/Trending" className='ad'>Trending</Link></li>
+                </ul>
              
             </Toolbar>
           </AppBar>
